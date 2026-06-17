@@ -1,0 +1,126 @@
+.contact-page { background: #ffffff; }
+
+/* Hero */
+.contact-hero {
+  background: #fafaf9;
+  border-bottom: 1px solid #f5f5f4;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.contact-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1c1917;
+  margin-bottom: 14px;
+  letter-spacing: -0.5px;
+}
+
+.contact-subtitle {
+  color: #78716c;
+  font-size: 1rem;
+}
+
+/* Body */
+.contact-body { padding: 56px 0; }
+
+.contact-inner {
+  max-width: 896px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2.2fr) minmax(0, 1fr);
+  gap: 32px;
+  align-items: start;
+}
+
+/* allow grid columns to shrink below their content's intrinsic width */
+.contact-form-col,
+.contact-details-col {
+  min-width: 0;
+}
+
+.contact-h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1c1917;
+  margin-bottom: 20px;
+}
+
+/* Form card */
+.contact-form-card {
+  background: #ffffff;
+  border: 1px solid #e7e5e4;
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+}
+
+/* let the form fill the card instead of staying centered at 720px */
+.contact-form-card .enq-form {
+  max-width: none;
+  margin: 0;
+}
+
+/* Details */
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-note-box {
+  background: #fafaf9;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.contact-note-box p {
+  font-size: 0.875rem;
+  color: #78716c;
+  line-height: 1.7;
+}
+
+.contact-official-box {
+  background: #1c1917;
+  color: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.contact-official-box h3 {
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.contact-official-box p {
+  font-size: 0.75rem;
+  color: #a8a29e;
+  line-height: 1.6;
+  margin-bottom: 14px;
+}
+
+.contact-trent-btn {
+  display: block;
+  text-align: center;
+  padding: 9px;
+  background: #ffffff;
+  color: #000000;
+  font-size: 0.75rem;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+.contact-trent-btn:hover { background: #f5f5f4; }
+
+@media (max-width: 860px) {
+  .contact-grid { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 600px) {
+  .contact-title { font-size: 1.75rem; }
+}

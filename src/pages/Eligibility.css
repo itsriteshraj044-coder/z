@@ -1,0 +1,151 @@
+.elig-page { background: #ffffff; }
+
+/* Hero */
+.elig-hero {
+  background: #fafaf9;
+  border-bottom: 1px solid #f5f5f4;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.elig-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1c1917;
+  margin-bottom: 14px;
+  letter-spacing: -0.5px;
+}
+
+.elig-subtitle {
+  color: #78716c;
+  font-size: 1rem;
+}
+
+/* Body */
+.elig-body { padding: 56px 0; }
+
+.elig-inner {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Disclaimer */
+.elig-disclaimer {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.elig-disclaimer-icon {
+  width: 20px;
+  height: 20px;
+  color: #d97706;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.elig-disclaimer p {
+  font-size: 0.875rem;
+  color: #92400e;
+  line-height: 1.6;
+}
+
+/* Cards */
+.elig-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.elig-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  background: #fafaf9;
+  border: 1px solid #f5f5f4;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.elig-check {
+  width: 20px;
+  height: 20px;
+  color: #16a34a;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.elig-card-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1c1917;
+  margin-bottom: 4px;
+}
+
+.elig-card-desc {
+  font-size: 0.875rem;
+  color: #57534e;
+  line-height: 1.7;
+}
+
+/* Bottom CTA */
+.elig-cta {
+  background: #f5f5f4;
+  border-radius: 16px;
+  padding: 24px;
+  text-align: center;
+}
+
+.elig-cta-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #1c1917;
+  margin-bottom: 8px;
+}
+
+.elig-cta-text {
+  font-size: 0.875rem;
+  color: #78716c;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.elig-cta-buttons {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.elig-btn-dark {
+  background: #000000;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+.elig-btn-dark:hover { background: #292524; }
+
+.elig-btn-outline {
+  border: 1px solid #d6d3d1;
+  color: #44403c;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 10px 24px;
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+.elig-btn-outline:hover { background: #fafaf9; }
+
+@media (max-width: 600px) {
+  .elig-title { font-size: 1.75rem; }
+}

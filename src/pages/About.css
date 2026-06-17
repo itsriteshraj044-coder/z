@@ -1,0 +1,141 @@
+.about-page { background: #ffffff; }
+
+/* Hero */
+.about-hero {
+  background: #fafaf9;
+  border-bottom: 1px solid #f5f5f4;
+  padding: 56px 0;
+  text-align: center;
+}
+
+.about-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 1px solid #e7e5e4;
+  color: #57534e;
+  font-size: 0.75rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 999px;
+  margin-bottom: 20px;
+}
+.about-pill-icon { width: 14px; height: 14px; }
+
+.about-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #1c1917;
+  letter-spacing: -0.5px;
+}
+
+/* Body */
+.about-body { padding: 56px 0; }
+
+.about-inner {
+  max-width: 768px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.about-block h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1c1917;
+  margin-bottom: 12px;
+}
+
+.about-block p {
+  color: #57534e;
+  line-height: 1.7;
+}
+
+.do-list {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.do-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: #57534e;
+}
+
+.do-icon {
+  width: 16px;
+  height: 16px;
+  color: #16a34a;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.not-box {
+  background: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.not-box p {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.875rem;
+  color: #b91c1c;
+}
+
+.not-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ef4444;
+  flex-shrink: 0;
+}
+
+.trent-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #1c1917;
+  color: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 12px;
+  margin-top: 16px;
+  transition: background 0.2s;
+}
+.trent-btn:hover { background: #292524; }
+.ext-icon { width: 16px; height: 16px; }
+
+.about-cta {
+  text-align: center;
+  padding-top: 16px;
+}
+
+.enquiry-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e7e5e4;
+  color: #44403c;
+  font-weight: 600;
+  padding: 12px 24px;
+  border-radius: 12px;
+  transition: background 0.2s;
+}
+.enquiry-btn:hover { background: #fafaf9; }
+
+@media (max-width: 600px) {
+  .about-title { font-size: 1.75rem; }
+}
