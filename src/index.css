@@ -118,3 +118,8 @@ button { font-family: var(--font); cursor: pointer; }
   .section-title { font-size: 1.5rem; }
   .container { padding: 0 16px; }
 }
+
+/* Space for the fixed mobile bottom navigation */
+@media (max-width: 900px) {
+  body { padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px)); }
+}
